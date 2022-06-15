@@ -54,7 +54,7 @@ const PostPage = ({ trendingResults, followResults, providers }) => {
     return (
         <div className="">
             <Head>
-                <title>{post?.username} on Twitter "{post?.text}"</title>
+                <title>{post?.username} on Twitter {'"'}{post?.text}{'"'}</title>
             </Head>
 
             <main className="bg-black min-h-screen flex max-w-[1500px] mx-auto">

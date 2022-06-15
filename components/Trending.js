@@ -22,6 +22,7 @@ function Trending({ result }) {
       {result.img ? (
         <Image
           src={result.img}
+          alt=""
           width={70}
           height={70}
           objectFit="cover"
